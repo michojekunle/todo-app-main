@@ -2,9 +2,32 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #fc0fc0;
+  color: #fc9;
+}
+
+.container {
+  width: 90vw;
+  max-width: 500px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5rem 2rem;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.input {
+  width: 70%;
+  padding: 20px 12px;
+}
+
+.submit {
+  width: 25%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
